@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otras Opciones - Lumelys</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌍 Otras Opciones en Lumelys</h1>
+        <p>Explora diferentes oportunidades de negocio y servicios innovadores.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 Volver al Inicio</a></li>
+            <li><a href="opciones/aguame/aguame_es.html">💧 Inversión en Desalinización - AguaMe</a></li>
+            <li><a href="opciones/negocio2/negocio2_es.html">🚀 Otro Negocio en Desarrollo</a></li>
+            <li><a href="opciones/negocio3/negocio3_es.html">🔗 Expansión de Servicios</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>📌 Iniciativas en Desarrollo</h2>
+        <p>Aquí encontrarás proyectos que están transformando el mercado y mejorando la accesibilidad a servicios en distintos sectores.</p>
+    </section>
+
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="es">🇪🇸 Español</option>
+        <option value="en">🇺🇸 English</option>
+    </select>
+
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById("language-selector").value;
+            if (lang === "es") {
+                window.location.href = "opciones_es.html";
+            } else {
+                window.location.href = "opciones_en.html";
+            }
+        }
+    </script>
+
+</body>
+</html>
