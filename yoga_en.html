@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Classes - Junior Amaya Lugo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🧘 Yoga Classes</h1>
+        <p>Find balance and well-being with guided yoga and meditation practices.</p>
+    </header>
+
+    <section>
+        <h2>📌 Available Services</h2>
+        <ul>
+            <li>✅ In-person Hatha Yoga classes (1 hour and 15 minutes long).</li>
+            <li>✅ Online Hatha Yoga classes (1 hour and 15 minutes long).</li>
+            <li>✅ Full-day experience with two yoga sessions, meditation, and a vegan lunch.</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>💰 Pricing</h2>
+        <p>✅ <strong>In-person classes</strong> – 25 USDT per session.</p>
+        <p>✅ <strong>Online classes</strong> – 15 USDT per session.</p>
+        <p>✅ <strong>Full-day experience</strong> – 75 USDT.</p>
+    </section>
+
+    <section id="trainer">
+        <h2>🏆 Meet Your Instructor</h2>
+        <p><strong>Junior Amaya Lugo</strong> - RYT 500 Yoga Alliance USA.</p>
+        <p>Has participated in Vipassana retreats, Inside Meditation, and Tibetan Buddhism.</p>
+        <p>Specialist in yoga, meditation, and holistic well-being.</p>
+    </section>
+
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="es">🇪🇸 Spanish</option>
+        <option value="en">🇺🇸 English</option>
+    </select>
+
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById("language-selector").value;
+            if (lang === "es") {
+                window.location.href = "yoga_es.html";
+            } else {
+                window.location.href = "yoga_en.html";
+            }
+        }
+    </script>
+
+    <section id="contact">
+        <h2>📩 Contact the Instructor</h2>
+        <p>Choose your preferred contact method:</p>
+        <p>📧 <strong>Email:</strong> <a href="mailto: yogaju2178@gmail.com">Send an email</a></p>
+        <p>📲 <strong>WhatsApp:</strong> <a href="https://wa.me/[5353308851]">Chat on WhatsApp</a></p>
+        <p>📩 <strong>Telegram:</strong> <a href="https://t.me/[@Antonilago]">Chat on Telegram</a></p>
+    </section>
+
+</body>
+</html>
