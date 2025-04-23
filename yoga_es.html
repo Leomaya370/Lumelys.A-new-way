@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de Yoga - Junior Amaya Lugo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🧘 Clases de Yoga</h1>
+        <p>Encuentra equilibrio y bienestar con prácticas guiadas de yoga y meditación.</p>
+    </header>
+
+    <section>
+        <h2>📌 Servicios Disponibles</h2>
+        <ul>
+            <li>✅ Clases presenciales de Hatha Yoga (1 hora y 15 minutos de duración).</li>
+            <li>✅ Clases online de Hatha Yoga (1 hora y 15 minutos de duración).</li>
+            <li>✅ Experiencia de un día completo con dos sesiones de yoga, meditación y almuerzo vegano.</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>💰 Tarifas</h2>
+        <p>✅ <strong>Clases presenciales</strong> – 25 USDT por sesión.</p>
+        <p>✅ <strong>Clases online</strong> – 15 USDT por sesión.</p>
+        <p>✅ <strong>Experiencia de un día completo</strong> – 75 USDT.</p>
+    </section>
+
+    <section id="trainer">
+        <h2>🏆 Conoce a tu Profesor</h2>
+        <p><strong>Junior Amaya Lugo</strong> - Profesor RYT 500 Yoga Alliance USA.</p>
+        <p>Ha participado en retiros Vipassana, Inside Meditation y Budismo tibetano.</p>
+        <p>Especialista en yoga, meditación y bienestar integral.</p>
+    </section>
+
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="es">🇪🇸 Español</option>
+        <option value="en">🇺🇸 English</option>
+    </select>
+
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById("language-selector").value;
+            if (lang === "es") {
+                window.location.href = "yoga_es.html";
+            } else {
+                window.location.href = "yoga_en.html";
+            }
+        }
+    </script>
+
+    <section id="contacto">
+        <h2>📩 Contacta al Profesor</h2>
+        <p>Elige tu método de contacto preferido:</p>
+        <p>📧 <strong>Email:</strong> <a href="mailto: yogaju2178@gmail.com">Enviar correo</a></p>
+        <p>📲 <strong>WhatsApp:</strong> <a href="https://wa.me/[5353308851]">Chat en WhatsApp</a></p>
+        <p>📩 <strong>Telegram:</strong> <a href="https://t.me/[@Antonilago]">Chat en Telegram</a></p>
+    </section>
+
+</body>
+</html>
