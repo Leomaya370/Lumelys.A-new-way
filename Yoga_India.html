@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Classes - Farah Russo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🧘 Yoga Classes</h1>
+        <p>Holistic wellness through yoga, meditation, and Ayurveda.</p>
+    </header>
+
+    <section>
+        <h2>📌 Available Services</h2>
+        <ul>
+            <li>✅ Prenatal Yoga classes tailored to individual needs.</li>
+            <li>✅ Yin, Vinyasa, Ashtanga, and Hatha Yoga sessions.</li>
+            <li>✅ Meditation and Ayurveda workshops.</li>
+            <li>✅ Full retreats and workshops focused on women's wellness and self-empowerment.</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>💰 Pricing</h2>
+        <p>✅ <strong>Yoga classes (any style)</strong> – 50 USDT per in person session.</p>
+        <p>✅ <strong>Women's wellness retreats</strong> – 120 USDT per full-day experience.</p>
+        <p>✅ <strong>Workshops & Meditation sessions</strong> – 50 USDT per session.</p>
+    </section>
+
+    <section id="trainer">
+        <h2>🏆 Meet Your Instructor</h2>
+        <p><strong>Farah Russo</strong> - Certified Yoga Instructor from India.</p>
+        <p>Trained in Rishikesh with expertise in prenatal yoga, meditation, and Ayurveda.</p>
+        <p>Specialist in empowering women through yoga and holistic wellness.</p>
+        <p>Certified in Ecstatic Dance and organizer of retreats and workshops.</p>
+    </section>
+
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="es">🇪🇸 Spanish</option>
+        <option value="en">🇺🇸 English</option>
+    </select>
+
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById("language-selector").value;
+            if (lang === "es") {
+                window.location.href = "yoga_farah_es.html";
+            } else {
+                window.location.href = "yoga_farah_en.html";
+            }
+        }
+    </script>
+
+    <section id="contact">
+        <h2>📩 Contact the Instructor</h2>
+        <p>Choose your preferred contact method:</p>
+        <p>📧 <strong>Email:</strong> <a href="mailto:farah@yoga.com">Send an email</a></p>
+        <p>📲 <strong>WhatsApp:</strong> <a href="https://wa.me/[NUMERO]">Chat on WhatsApp</a></p>
+        <p>📩 <strong>Telegram:</strong> <a href="https://t.me/[USUARIO]">Chat on Telegram</a></p>
+    </section>
+
+</body>
+</html>
