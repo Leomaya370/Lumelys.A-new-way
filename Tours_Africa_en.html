@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Roots Vacation Tours & Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌍 African Roots Vacation Tours & Travel</h1>
+        <p>Discover the beauty of Uganda and Rwanda through unique and authentic experiences.</p>
+    </header>
+
+    <section>
+        <h2>📌 Available Services</h2>
+        <ul>
+            <li>✅ Personalized safaris in Uganda and Rwanda.</li>
+            <li>✅ Cultural tourism and visits to local communities.</li>
+            <li>✅ Hiking and adventure expeditions.</li>
+            <li>✅ Gorilla trekking tours in their natural habitat.</li>
+            <li>✅ Culinary experiences and market tours.</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>💰 Pricing</h2>
+        <p>✅ <strong>Safaris in Uganda or Rwanda</strong> – Starting at 500 USD per person.</p>
+        <p>✅ <strong>Private excursions</strong> – Starting at 300 USD per person.</p>
+        <p>✅ <strong>Cultural experience</strong> – Starting at 150 USD per person.</p>
+    </section>
+
+    <section id="guide">
+        <h2>🏆 Meet the Organizer</h2>
+        <p><strong>African Roots Vacation Tours & Travel</strong> is a team passionate about sustainable tourism.</p>
+        <p>Experts in personalized travel with a cultural and ecological focus.</p>
+        <p>Committed to providing authentic experiences and connecting you with the essence of Africa.</p>
+    </section>
+
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="es">🇪🇸 Spanish</option>
+        <option value="en">🇺🇸 English</option>
+    </select>
+
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById("language-selector").value;
+            if (lang === "es") {
+                window.location.href = "african_roots_es.html";
+            } else {
+                window.location.href = "african_roots_en.html";
+            }
+        }
+    </script>
+
+    <section id="contact">
+        <h2>📩 Contact</h2>
+        <p>Choose your preferred contact method:</p>
+        <p>📧 <strong>Email:</strong> <a href="mailto:info@africanroots.com">Send an email</a></p>
+        <p>📲 <strong>WhatsApp:</strong> <a href="https://wa.me/[NUMBER]">Chat on WhatsApp</a></p>
+        <p>📩 <strong>Telegram:</strong> <a href="https://t.me/[USER]">Chat on Telegram</a></p>
+    </section>
+
+</body>
+</html>
