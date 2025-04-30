@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de Yoga - Farah Russo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <header>
+        <h1>🧘 Clases de Yoga</h1>
+        <p>Bienestar holístico a través del yoga, la meditación y el Ayurveda.</p>
+    </header>
+
+    <section>
+        <h2>📌 Información</h2>
+        <p>Este servicio solo se brinda en un idioma.</p>
+        <p>Por favor, cambie de idioma y consúltelo en inglés.</p>
+    </section>
+
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="es">🇪🇸 Español</option>
+        <option value="en">🇺🇸 Inglés</option>
+    </select>
+
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById("language-selector").value;
+            if (lang === "es") {
+                window.location.href = "yoga_farah_es.html";
+            } else {
+                window.location.href = "yoga_farah_en.html";
+            }
+        }
+    </script>
+
+</body>
+</html>
