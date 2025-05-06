@@ -95,3 +95,9 @@ nav ul li a {
 #contact a:hover {
     background: #e0a800;
 }
+img {
+    width: 400px; /* Ajusta el ancho */
+    height: auto; /* Mantiene la proporción */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
