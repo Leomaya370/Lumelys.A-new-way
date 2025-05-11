@@ -1,52 +1,72 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     background-color: #f4f4f4;
 }
 
-/* Encabezado con espacio para el logo */
-header {
+/* Menú de navegación */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sección de Introducción */
+.logo-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #0077cc;
-    color: white;
+    justify-content: flex-start;
     padding: 20px;
 }
 
 .logo {
-    width: 80px; /* Ajusta según el tamaño del logo */
+    width: 80px; /* Tamaño reducido */
     height: auto;
+    margin-right: 20px;
 }
 
-/* Menú de navegación */
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+.texto-intro {
+    max-width: 600px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #0077cc;
-    font-weight: bold;
+.texto-intro h1 {
+    font-size: 24px;
 }
 
-/* Secciones en formato horizontal */
+/* Secciones en formato horizontal desplazable */
 .contenedor-secciones {
     display: flex;
     overflow-x: auto;
     gap: 20px;
     padding: 20px;
     scroll-behavior: smooth;
+    flex-wrap: nowrap;
 }
 
 .seccion {
-    flex: 0 0 auto;
-    width: 300px;
+    flex: 0 0 350px;
     padding: 20px;
     background: #e6f2ff;
     border-radius: 8px;
@@ -58,10 +78,17 @@ nav ul li a {
     transform: scale(1.05);
 }
 
-/* Imágenes optimizadas */
+/* Mejor desplazamiento horizontal */
+.contenedor-secciones::-webkit-scrollbar {
+    height: 8px;
+}
+
+.contenedor-secciones::-webkit-scrollbar-thumb {
+    background: #0077cc;
+    border-radius: 10px;
+}
+
 img {
-    width: 400px;
-    height: auto;
     display: block;
     margin: 0 auto;
 }
