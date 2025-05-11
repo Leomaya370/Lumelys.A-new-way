@@ -92,3 +92,28 @@ img {
     display: block;
     margin: 0 auto;
 }
+/* Sección de Introducción */
+.logo-container {
+    display: flex;
+    flex-direction: column; /* Asegura que el logo y texto estén alineados */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px; /* Tamaño más pequeño */
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre el logo y el texto */
+}
+
+/* Asegurar que las secciones no cubran el logo */
+.contenedor-secciones {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+    margin-top: 20px; /* Separar las secciones del header */
+}
