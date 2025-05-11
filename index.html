@@ -22,14 +22,18 @@
         </ul>
     </nav>
 
-    <!-- Sección Introducción con Logo -->
+    <!-- Sección Introducción con Logo y Texto -->
     <header id="introduccion">
-        <img src="IMG_20250506_214528_304.jpg" alt="Logo Lumelys" class="logo">
-        <h1>Bienvenido a <span class="resaltado">Lumelys</span></h1>
-        <p>Donde conectamos turismo, deportes y pequeños negocios con la economía digital.</p>
+        <div class="logo-container">
+            <img src="images/IMG_20250506_214528_304.jpg" alt="Logo Lumelys" class="logo">
+            <div class="texto-intro">
+                <h1>Bienvenido a <span class="resaltado">Lumelys</span></h1>
+                <p>Donde conectamos turismo, deportes y pequeños negocios con la economía digital.</p>
+            </div>
+        </div>
     </header>
 
-    <!-- Secciones en formato horizontal -->
+    <!-- Secciones en formato horizontal desplazable -->
     <div class="contenedor-secciones">
         <section class="seccion">
             <h2>💰 Economía Digital</h2>
@@ -48,7 +52,6 @@
             <p>Explora clases online y experiencias de relajación en Cuba y la India.</p>
         </section>
     </div>
-
 
     <!-- Selector de idioma -->
     <select id="language-selector" onchange="changeLanguage()">
