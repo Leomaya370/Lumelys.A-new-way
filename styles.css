@@ -1,56 +1,104 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-/* Menú de navegación */
-.menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Asegura que el menú esté por encima */
-    background: rgba(0, 0, 0, 0.8);
-    padding: 15px 0;
-}
-
-/* Ajuste del contenido para que no se superponga con el menú */
 header {
-    margin-top: 80px; /* Espacio suficiente para que el logo no se monte sobre el menú */
+    text-align: center;
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
 }
 
-/* Sección de Introducción */
-.logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px; /* Espacio entre el logo y el texto */
-    padding: 40px 20px 20px; /* Ajuste para un mejor equilibrio */
-    position: relative;
-    z-index: 10;
+h1, h2 {
+    color: #333;
 }
 
-/* Ajuste del tamaño del logo */
-.logo {
-    width: 100px; /* Tamaño ajustado */
-    height: auto;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* Ajuste del tamaño del texto */
-.texto-intro {
-    max-width: 600px;
-    text-align: center; /* Centra el contenido */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.texto-intro h1 {
-    font-size: 32px; /* Más grande y destacado */
+nav ul li a {
+    text-decoration: none;
+    color: #0077cc;
 }
 
-.texto-intro p {
-    font-size: 18px; /* Mejor legibilidad */
+.highlight {
+    color: #ff6600;
+    font-weight: bold;
 }
+/* Estilos para el Plan de Crecimiento */
+#growth-plan {
+    background-color: #f4f4f4; /* Fondo claro */
+    border-left: 5px solid #007bff; /* Línea azul */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#growth-plan h2 {
+    color: #007bff;
+    font-size: 22px;
+}
+
+#growth-plan h3 {
+    color: #333;
+    font-size: 18px;
+}
+
+#growth-plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+#growth-plan ul li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #e6f2ff; /* Fondo suave */
+    border-radius: 5px;
+}
+
+/* Estilos para la sección de Telegram */
+#contact {
+    background-color: #fff3cd; /* Fondo amarillo claro */
+    border-left: 5px solid #ffc107; /* Línea amarilla */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #d39e00;
+    font-size: 22px;
+}
+
+#contact a {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #ffc107;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    background: #e0a800;
+}
+img {
+    width: 400px; /* Ajusta el ancho */
+    height: auto; /* Mantiene la proporción */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
+
