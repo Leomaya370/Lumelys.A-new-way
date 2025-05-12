@@ -65,7 +65,7 @@ body {
     display: flex;
     overflow-x: hidden;
     gap: 20px;
-    padding: 15px;
+    padding: 20px;
     scroll-behavior: smooth;
     flex-wrap: nowrap;
     margin-top: 40px; /* Separar las secciones del logo */
@@ -75,7 +75,7 @@ body {
 
 .seccion {
     flex: 0 0 350px;
-    padding: 20px;
+    padding: 15x;
     background: #e6f2ff;
     border-radius: 8px;
     text-align: center;
