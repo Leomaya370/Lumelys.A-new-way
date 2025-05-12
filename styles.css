@@ -14,39 +14,43 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Mayor z-index para asegurarse de que el menú esté sobre otros elementos */
+    z-index: 1000; /* Asegura que el menú esté por encima */
     background: rgba(0, 0, 0, 0.8);
     padding: 15px 0;
 }
 
 /* Ajuste del contenido para que no se superponga con el menú */
 header {
-    margin-top: 70px; /* Espacio suficiente para que el logo no se monte sobre el menú */
+    margin-top: 80px; /* Espacio suficiente para que el logo no se monte sobre el menú */
 }
 
 /* Sección de Introducción */
 .logo-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 20px; /* Espacio entre el logo y el texto */
-    padding: 20px; /* Eliminado el padding-top excesivo */
+    justify-content: center;
+    gap: 15px; /* Espacio entre el logo y el texto */
+    padding: 40px 20px 20px; /* Ajuste para un mejor equilibrio */
     position: relative;
     z-index: 10;
 }
 
+/* Ajuste del tamaño del logo */
 .logo {
-    width: 60px; /* Tamaño más pequeño */
+    width: 100px; /* Tamaño ajustado */
     height: auto;
 }
 
-/* Texto de introducción */
+/* Ajuste del tamaño del texto */
 .texto-intro {
-    max-width: 500px;
+    max-width: 600px;
+    text-align: center; /* Centra el contenido */
 }
 
 .texto-intro h1 {
-    font-size: 24px;
+    font-size: 32px; /* Más grande y destacado */
 }
 
-/* Eliminado .contenedor-secciones y .seccion */
+.texto-intro p {
+    font-size: 18px; /* Mejor legibilidad */
+}
