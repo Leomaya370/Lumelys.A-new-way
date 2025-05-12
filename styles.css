@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menú de navegación */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Mayor z-index para asegurarse de que el menú esté sobre otros elementos */
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+}
+
+/* Ajuste del contenido para que no se superponga con el menú */
+header {
+    margin-top: 70px; /* Espacio suficiente para que el logo no se monte sobre el menú */
+}
+
+/* Sección de Introducción */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; /* Espacio entre el logo y el texto */
+    padding: 20px; /* Eliminado el padding-top excesivo */
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    width: 60px; /* Tamaño más pequeño */
+    height: auto;
+}
+
+/* Texto de introducción */
+.texto-intro {
+    max-width: 500px;
+}
+
+.texto-intro h1 {
+    font-size: 24px;
+}
+
+/* Eliminado .contenedor-secciones y .seccion */
