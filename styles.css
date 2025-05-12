@@ -63,7 +63,7 @@ body {
 /* Secciones en formato horizontal desplazable */
 .contenedor-secciones {
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     gap: 20px;
     padding: 20px;
     scroll-behavior: smooth;
