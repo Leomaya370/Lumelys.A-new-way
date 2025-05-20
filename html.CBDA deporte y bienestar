@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBDA Oil - Beneficios para Deportistas y Salud General</title>
+    <meta name="description" content="Descubre los beneficios del CBDA para la recuperación deportiva y la salud. Reduce inflamación, mejora el sueño y más.">
+    <meta name="keywords" content="CBDA, aceite medicinal, recuperación deportiva, bienestar, antiinflamatorio, salud natural">
+    <meta name="author" content="CBDA Oil">
+    <meta name="robots" content="index, follow">
+</head>
+<body>
+
+    <header>
+        <h1>🌿 CBDA Oil: Potenciando tu bienestar de manera natural</h1>
+        <p>El poder del ácido cannabidiólico (CBDA) para la salud de deportistas y personas en general.</p>
+    </header>
+
+    <section>
+        <h2>📌 Precio del CBDA Oil</h2>
+        <p>💰 <strong>Precio actual:</strong> 29.99 USD por frasco de 30 ml.</p>
+        <p>(El precio puede cambiar según disponibilidad y promociones especiales.)</p>
+    </section>
+
+    <section>
+        <h2>📢 Únete a nuestra comunidad en Telegram</h2>
+        <p>📲 Recibe actualizaciones sobre el CBDA, estudios científicos y consejos para su uso.</p>
+        <a href="https://t.me/GrupoCBDAOil" target="_blank">
+            <button>📩 Unirme a Telegram</button>
+        </a>
+    </section>
+
+    <section>
+        <h2>📌 ¿Qué es el CBDA?</h2>
+        <p>El CBDA es un compuesto natural derivado del cannabis, con propiedades únicas que pueden beneficiar a los deportistas y mejorar la salud en general.</p>
+    </section>
+
+    <section id="benefits-sports">
+        <h2>📌 Beneficios del CBDA para Deportistas</h2>
+        <ul>
+            <li>✅ <strong>Antiinflamatorio potente:</strong> Reduce la inflamación muscular post-entrenamiento.</li>
+            <li>✅ <strong>Alivio del dolor:</strong> Ayuda a manejar molestias musculares y articulares.</li>
+            <li>✅ <strong>Recuperación muscular acelerada:</strong> Optimiza el tiempo entre entrenamientos.</li>
+            <li>✅ <strong>Propiedades antioxidantes:</strong> Protege las células del estrés oxidativo causado por el ejercicio.</li>
+            <li>✅ <strong>Reducción de náuseas:</strong> Útil para disciplinas de resistencia y estrés físico intenso.</li>
+            <li>✅ <strong>Mejora del sueño y reducción del estrés:</strong> Favorece la recuperación y el rendimiento.</li>
+        </ul>
+    </section>
+
+    <section id="benefits-general">
+        <h2>📌 Beneficios para la Salud General</h2>
+        <ul>
+            <li>✅ <strong>Potente antiinflamatorio:</strong> Aplicaciones en artritis y enfermedades crónicas.</li>
+            <li>✅ <strong>Efecto ansiolítico y antidepresivo:</strong> Ayuda a mejorar el estado de ánimo.</li>
+            <li>✅ <strong>Antiemético:</strong> Reduce náuseas y vómitos.</li>
+            <li>✅ <strong>Neuroprotector:</strong> Potencial en la prevención de enfermedades neurodegenerativas.</li>
+        </ul>
+    </section>
+
+    <section id="faq">
+        <h2>❓ ¿Es legal el CBDA?</h2>
+        <p>La legalidad del CBDA depende de las regulaciones de cada país. En algunas regiones, es completamente legal mientras que en otras puede estar sujeto a restricciones. Se recomienda verificar las leyes locales antes de adquirir o consumir productos con CBDA.</p>
+    </section>
+
+    <section id="news">
+        <h2>📰 Últimas Noticias sobre CBDA</h2>
+        <article>
+            <h3>🔬 Nuevos estudios confirman el potencial antiinflamatorio del CBDA</h3>
+            <p>Investigadores han descubierto que el CBDA es aún más efectivo que el CBD en la inhibición de la enzima COX-2...</p>
+            <a href="https://enlace-a-noticia.com" target="_blank">Leer más</a>
+        </article>
+
+        <article>
+            <h3>🚀 CBDA y su impacto en el rendimiento deportivo</h3>
+            <p>Atletas de alto rendimiento están explorando los beneficios del CBDA para la recuperación post-entrenamiento...</p>
+            <a href="https://otra-noticia.com" target="_blank">Leer más</a>
+        </article>
+    </section>
+
+    <section id="buy">
+        <h2>🛒 Compra Ahora</h2>
+        <a href="https://tu-tienda-online.com/cbdaoil" target="_blank">
+            <button>🛍 Comprar CBDA Oil</button>
+        </a>
+    </section>
+
+    <section id="contact">
+        <h2>📞 Contacta con Nosotros</h2>
+        <p>¿Tienes dudas? Contáctanos directamente:</p>
+        <ul>
+            <li>📲 WhatsApp: <a href="https://wa.me/1234567890">Enviar mensaje</a></li>
+            <li>📢 Telegram: <a href="https://t.me/CBDAOil">Unirse al canal</a></li>
+            <li>📧 Correo: <a href="mailto: contacto@cbdaoil.com">Enviar Email</a></li>
+        </ul>
+    </section>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "CBDA Oil",
+      "image": "https://tu-sitio.com/cbdaoil.jpg",
+      "description": "Aceite medicinal de CBDA con beneficios para la inflamación, recuperación muscular y bienestar.",
+      "brand": {
+        "@type": "Brand",
+        "name": "CBDA Oil"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "29.99",
+        "priceCurrency": "USD",
+        "availability": "InStock"
+      }
+    }
+    </script>
+
+</body>
+</html>
